@@ -9,24 +9,32 @@ The compiler allows for a subset of LabVIEW functionality to be used.  Please re
 
 This product requires the installation of the Arduino IDE 1.6.10 or higher,Arduino Compatible Compiler for LabVIEW (Aledyne-TSXperts) and QwaveSys ESP8266 board package which included hardware libraries and drivers.  
 
-**You must first download and install requied softwares refer as below information.
+#Software Requirements
 
--Arduino IDE 1.6.10 version or higher from http://arduino.cc/en/main/software. 
+-Arduino IDE 1.6.10 version or higher from `http://arduino.cc/en/main/software`
 
--Arduino Compatible Compiler for LabVIEW Home Edition (1.0.0.21) from http://www.ni.com/gate/gb/GB_EVALTLKTARDUINOCOMP/US.
+-Arduino Compatible Compiler for LabVIEW Home Edition (1.0.0.21) from `http://www.ni.com/gate/gb/GB_EVALTLKTARDUINOCOMP/US`
 
--QwaveSys ESP8266 board package from  http://iosys.link/lvembedded/package_qwavesys_index.json.
+-QwaveSys ESP8266 board package from  `http://iosys.link/lvembedded/package_qwavesys_index.json`
 
 The Home/Education can ONLY be used for personal or educational purposes.  Using the home edition for professional/commercial uses is prohibited.
 
+#Installing with Boards Manager
+
+Install `Arduino 1.6.10` from the Arduino website.Start Arduino and open Preferences window.
+
+Enter `http://iosys.link/lvembedded/package_qwavesys_index.json` into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
+
+Open Boards Manager from `Tools > Board` menu and install LabVIEW Arduino platform (and don't forget to select your ESP8266 (LabVIEW) from Tools > Board` menu after installation).
+
 -----------------------------------------------
-Released Note : 1.0.0.8
+#Released Note : 1.0.0.8
 
 -Bug fixed RTC MCP79410 VBAT Issue
 
 -Added OLED SSD1306 (64x48px)
 
--*Compatible with board package 2.0.0-17 (can be download from http://iosys.link/lvembedded/package_qwavesys_index.json)
+-*Compatible with board package 2.0.0-17 (can be download from `http://iosys.link/lvembedded/package_qwavesys_index.json`)
 
 -----------------------------------------------
 
