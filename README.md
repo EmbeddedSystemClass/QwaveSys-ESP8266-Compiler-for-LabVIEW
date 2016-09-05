@@ -3,7 +3,7 @@ QwaveSys ESP8266 Compiler for LabVIEW
 
 ![](http://iosys.link/tmp_pics/esp.png)
 
-The "QWaveSys ESP8266 Compiler for LabVIEW"  is a compiler that will take a LabVIEW Virtual Instrument (VI) and compile it for the ArduinoTM programming language and will download the code to an  Espressif ESP8266 (WiFi SoC) hardware.  The downloaded code will execute embedded and standalone on the ESP8266 target.  This is a great way to use existing knowledge of LabVIEW to program simple standalone embedded systems on WiFi low-cost hardware.  It is also a great educational tool to teach software programming to entry level students without the steep learning curve of text-based languages.
+The `"QWaveSys ESP8266 Compiler for LabVIEW"`  is a compiler that will take a LabVIEW Virtual Instrument (VI) and compile it for the ArduinoTM programming language and will download the code to an  Espressif ESP8266 (WiFi SoC) hardware.  The downloaded code will execute embedded and standalone on the ESP8266 target.  This is a great way to use existing knowledge of LabVIEW to program simple standalone embedded systems on WiFi low-cost hardware.  It is also a great educational tool to teach software programming to entry level students without the steep learning curve of text-based languages.
 
 The compiler allows for a subset of LabVIEW functionality to be used.  Please refer to the installed palette and help manual to see a list of supported features and APIs. 
 
@@ -16,8 +16,6 @@ This product requires the installation of the Arduino IDE 1.6.10 or higher,Ardui
 -Arduino Compatible Compiler for LabVIEW Home Edition (1.0.0.21) from `http://www.ni.com/gate/gb/GB_EVALTLKTARDUINOCOMP/US`
 
 -QwaveSys ESP8266 board package from  `http://iosys.link/lvembedded/package_qwavesys_index.json`
-
-The Home/Education can ONLY be used for personal or educational purposes.  Using the home edition for professional/commercial uses is prohibited.
 
 #Installing with Boards Manager
 
