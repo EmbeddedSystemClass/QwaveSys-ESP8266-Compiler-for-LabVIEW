@@ -3,11 +3,13 @@ QwaveSys ESP8266 Compiler for LabVIEW
 
 ![](http://iosys.link/tmp_pics/esp.png)
 
-The `"QWaveSys ESP8266 Compiler for LabVIEW"`  is a compiler that will take a LabVIEW Virtual Instrument (VI) and compile it for the ArduinoTM programming language and will download the code to an  Espressif ESP8266 (WiFi SoC) hardware.  The downloaded code will execute embedded and standalone on the ESP8266 target.  This is a great way to use existing knowledge of LabVIEW to program simple standalone embedded systems on WiFi low-cost hardware.  It is also a great educational tool to teach software programming to entry level students without the steep learning curve of text-based languages.
+The `"QWaveSys ESP8266 Compiler for LabVIEW"`  is a compiler that will take a LabVIEW Virtual Instrument (VI) and compile it for the Arduino programming language and will download the code to an  Espressif ESP8266 (WiFi SoC) hardware.  
 
-The compiler allows for a subset of LabVIEW functionality to be used.  Please refer to the installed palette and help manual to see a list of supported features and APIs. 
+The downloaded code will execute embedded and standalone on the ESP8266 target.  This is a great way to use existing knowledge of LabVIEW to program simple standalone embedded systems on WiFi low-cost hardware.  
 
-This product requires the installation of the Arduino IDE 1.6.10 or higher,Arduino Compatible Compiler for LabVIEW (Aledyne-TSXperts) and QwaveSys ESP8266 board package which included hardware libraries and drivers.  
+It is also a great educational tool to teach software programming to entry level students without the steep learning curve of text-based languages.
+
+This product requires the installation of the Arduino IDE 1.6.10 or higher, Arduino Compatible Compiler for LabVIEW (Aledyne-TSXperts) and QwaveSys ESP8266 board package which included hardware libraries and drivers.  
 
 #Software Requirements
 
@@ -23,7 +25,7 @@ Install `Arduino 1.6.10` from the Arduino website.Start Arduino and open Prefere
 
 Enter `http://iosys.link/lvembedded/package_qwavesys_index.json` into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
 
-Open Boards Manager from `Tools > Board` menu and install LabVIEW Arduino platform (and don't forget to select your ESP8266 (LabVIEW) from Tools > Board` menu after installation).
+Open Boards Manager from `Tools > Board` menu and install LabVIEW Arduino platform (and don't forget to select your `ESP8266 (LabVIEW) from Tools > Board` menu after installation).
 
 -----------------------------------------------
 #Released Note : 1.0.0.8
@@ -36,7 +38,7 @@ Open Boards Manager from `Tools > Board` menu and install LabVIEW Arduino platfo
 
 -----------------------------------------------
 
-Released Note : 1.0.0.0-1.0.0.7
+#Released Note : 1.0.0.0-1.0.0.7
 
 -Added NETPIE MicroGear Library
 
